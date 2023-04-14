@@ -11,6 +11,7 @@ jobs:
       contents: read
       pages: write
       id-token: write
+      packages: write
     environment:
       name: github-pages
       url: ${{ steps.build-publish.outputs.page_url }}
