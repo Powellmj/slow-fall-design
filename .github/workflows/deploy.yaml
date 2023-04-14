@@ -4,10 +4,13 @@ on:
   push:
     branches:
       - "main"
-permissions:
-  id-token: write
+
 jobs:
   deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.build-publish.outputs.page_url }}
