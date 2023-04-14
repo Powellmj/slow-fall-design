@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "v18.15.0"
+    "node": "v18.15.0",
+    "npm": "9.5.0"
   },
   "dependencies": {
     "@storybook/addon-styling": "^1.0.0",
