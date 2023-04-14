@@ -20,11 +20,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "storybook build -s public",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "heroku-build": "storybook build -s public",
     "build-storybook": "storybook build",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
